@@ -9,10 +9,10 @@ const appCore = {
         return {
             linkers: [],
             db_path : "./assets/js/db.json",
-            tutor: "camila diaz",
-            comision:"23506",
+            tutor: "Fernanda Torok",
+            comision:"23507",
             instructorImg:"./assets/imgs/pic.jpg",
-            horarios:"Martes y Jueves 20:30 - 22:00"
+            horarios:"Miercoles y Viernes 08:00 - 09:30"
         }
     },
     methods: {

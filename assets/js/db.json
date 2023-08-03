@@ -2,37 +2,37 @@
   {
     "title": "Asistencia",
     "img_path": "./assets/imgs/attendance.webp",
-    "link_uri": "https://forms.gle/utJ6HPjU6vbQ6mxA6",
+    "link_uri": "https://forms.gle/R2opQxrYEabwKcCM9",
     "texto": "Link de asistencia, detalles a tener en cuenta que la asistencia se activara cuando el instructor a cargo."
   },
   {
     "title": "Google Meet",
     "img_path": "./assets/imgs/meet.jpg",
-    "link_uri": "https://meet.google.com/weo-rjzx-gxv",
+    "link_uri": "https://meet.google.com/mqj-dtav-hrb",
     "texto": "Link de meet para las clases sincronicas"
   },
   {
     "title": "Google Drive",
     "img_path":"./assets/imgs/gdrive.jpg",
-    "link_uri":"https://drive.google.com/drive/folders/1DOQPXb-0OOaZ6dL__QbjfxNhtlxes9Kv",
+    "link_uri":"https://drive.google.com/drive/folders/1C2795Ak_z7CzGotirTcQOVVHFs7Fy5s0?usp=sharing",
     "texto":"Link con lo trabajado en clase"
   },
   {
     "title": "YouTube Channel",
     "img_path":"./assets/imgs/youtube.jpg",
-    "link_uri":"https://www.youtube.com/playlist?list=PLqJAgZgcmtB-Z4WtvYCFhCCRlEk2AeC_t",
+    "link_uri":"https://www.youtube.com/playlist?list=PLqJAgZgcmtB-6PSjvQk-kOvA-vBGm7zO3",
     "texto":"Canal de youtube con las clases sincronicas"
   },
   {
     "title": "GitHub Repository",
     "img_path":"./assets/imgs/github.jpeg",
-    "link_uri":"https://github.com/andru-oca/comision-23506.git",
+    "link_uri":"https://github.com/andru-oca/comision-23507.git",
     "texto":"Repositorio de Github, en ello se subira el codigo, implementando conocimientos de codigo en la nube"
   },
   {
     "title": "Formulario Consultas",
     "img_path":"./assets/imgs/consultas.jpg",
-    "link_uri":"https://forms.gle/uvntTtVPKHiR9XAz8",
+    "link_uri":"",
     "texto":"Formulario de consultas con la tutor/a a cargo"
 
   },
@@ -75,7 +75,7 @@
   {
     "title":"Grupos TPO",
     "img_path":"./assets/imgs/team.jpg",
-    "link_uri":"https://docs.google.com/spreadsheets/d/1aLXD61aWxhdwpQn8jtzG4y8UBounW2JH2Jrz45usxQ4/edit?usp=drive_link",
+    "link_uri":"https://docs.google.com/spreadsheets/d/11VheXXm-PSBawkuqtLnPA2ckYh2KlL42LoraxmBonpM/edit?usp=sharing",
     "texto":"Armado de grupos para los trabajos practicos obligatorios"
   }
 
