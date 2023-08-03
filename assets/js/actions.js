@@ -11,7 +11,8 @@ const appCore = {
             db_path : "./assets/js/db.json",
             tutor: "camila diaz",
             comision:"23506",
-            instructorImg:"./assets/imgs/pic.jpg"
+            instructorImg:"./assets/imgs/pic.jpg",
+            horarios:"Martes y Jueves 20:30 - 22:00"
         }
     },
     methods: {
