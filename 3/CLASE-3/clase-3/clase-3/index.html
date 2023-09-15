@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLASE MULTIMEDIA</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>CLASE DE MULTIMEDIA</h1>
+    </header>
+    <main>
+        <hr>
+
+        <section>
+            <img src="https://www.clarin.com/img/2018/08/01/HJZOT5JrX_1256x620__1.jpg" alt="ESTO ESTA ROTO!"
+                width="400px">
+        </section>
+
+
+        <section>
+            <h2>Picture</h2>
+            <picture>
+                <source srcset="./asset/media/img/second-cat.jpg" media="(min-width: 800px)" width="400">
+                <source srcset="./asset/media/img/first-cat.jpg" media="(min-width: 400px)" width="400">
+                <img src="./asset/media/img/alf.webp" alt="img alf logo" width="400">
+            </picture>
+        </section>
+
+
+
+        <section>
+            <h1> AUDIO </h1>
+            <audio controls>
+                <source src="./asset/media/audio/ES_Floating Variables - Isaac Larson.mp3">
+            </audio>
+            <hr>
+            <h1> VIDEO</h1>
+
+            <h1>Video con URL PATH VIDEO</h1>
+
+            <video style="width:800px; height: auto;" controls muted>
+                <source src="http://syddev.com/jquery.videoBG/assets/tunnel_animation.mp4" type="video/mp4" />
+                <source src="http://syddev.com/jquery.videoBG/assets/tunnel_animation.ogv" type="application/ogg" />
+                <img src="http://syddev.com/jquery.videoBG/assets/tunnel_animation.jpg">
+            </video>
+
+        </section>
+
+        <section>
+            <hr>
+            <h2> IFRAMES</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/eqZwoLYEoHY?start=213"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36807.034114815215!2d-58.42140231465778!3d-34.614506971983715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbcb034946a7%3A0x4f669a33f27c8c6c!2sPizzer%C3%ADa%20Banchero!5e0!3m2!1sen!2sar!4v1692188459722!5m2!1sen!2sar"
+                width="560" height="315" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+
+
+        <section>
+            <table border="10px">
+
+                <thead>
+                    <tr>
+                        <th>SHOW RECOMENDADO</th>
+                        <td>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/eqZwoLYEoHY?start=213"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen>
+                            </iframe>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th> LUGAR PARA COMER</th>
+                        <td> <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36807.034114815215!2d-58.42140231465778!3d-34.614506971983715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbcb034946a7%3A0x4f669a33f27c8c6c!2sPizzer%C3%ADa%20Banchero!5e0!3m2!1sen!2sar!4v1692188459722!5m2!1sen!2sar"
+                                width="560" height="315" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe></td>
+                    </tr>
+                    <tr>
+                        <th>MUSICA PARA ESCUCHAR
+                            <br>
+                            DESPUES DEL SHOW
+                        </th>
+                        <td>
+                            <audio controls>
+                                <source src="./asset/media/audio/ES_Floating Variables - Isaac Larson.mp3">
+                            </audio>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+
+        </section>
+
+    </main>
+
+    <footer></footer>
+
+</body>
+
+</html>

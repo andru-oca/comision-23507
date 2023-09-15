@@ -1,0 +1,28 @@
+main {
+  border: 3px solid red;
+  background-color: var(--bg);
+  color: var(--fg);
+}
+
+main > q {
+  color: blueviolet;
+}
+
+main > section h1 + p {
+  background-color: chocolate;
+}
+
+main > section h1 ~ h3 {
+  background-color: aquamarine;
+}
+
+main > section h1:hover:first-child ~ q {
+  font-size: 2rem;
+}
+
+/*pseudoclases*/
+
+main > section:nth-child(2) {
+  background-color: palevioletred;
+  color: white;
+}

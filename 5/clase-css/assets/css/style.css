@@ -1,0 +1,91 @@
+/* *,
+html {
+    margin: 0;
+    padding: 0;
+} */
+
+header {
+    text-transform: lowercase;
+
+    margin: 20px;
+    padding-inline: 20px 20px;
+    height: 500px;
+}
+
+.color-fuente {
+    color: #666;
+}
+
+#__color-main {
+    color: purple;
+}
+
+footer {
+    color: blue;
+    border: 1px solid red;
+    border-radius: 20px;
+    background-color: cornflowerblue;
+}
+
+.color-rojo {
+    /* color: rgba(221, 80, 133, 0.7); */
+    color: #dd5085;
+}
+
+main > #news > p:last-child {
+    text-transform: uppercase;
+    color: aqua;
+}
+
+footer {
+    height: 10%;
+    width: 98%;
+    position: absolute;
+    bottom: 0;
+}
+
+footer > * {
+    color: #333;
+}
+
+.__centrado {
+    text-align: center;
+}
+
+.bloc {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    height: 100%;
+}
+
+.bloc_bis {
+    height: 500px;
+
+    background-size: cover;
+    background-position: center;
+    transition: 0.75s ease-in-out;
+    flex: 1;
+}
+
+.bloc_bis:hover {
+    border-radius: 2rem;
+    flex: 3;
+    cursor: pointer;
+}
+
+.bloc_bis:not(:hover) {
+    opacity: 0.4;
+}
+
+.linux {
+    background-image: url("https://beebom.com/wp-content/uploads/2023/04/best-linux-distros-you-should-use.png");
+}
+
+.windows {
+    background-image: url("https://photos5.appleinsider.com/gallery/55235-112198-windows-11-professional-xl.jpg");
+}
+
+.macos {
+    background-image: url("https://9to5mac.com/wp-content/uploads/sites/6/2023/04/macOS-beta.jpg");
+}

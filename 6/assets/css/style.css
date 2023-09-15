@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;600&display=swap");
+
+:root {
+    /*TAMAÑOS*/
+    font-size: 12px;
+    --font__size: 16px;
+
+    /* COLORES*/
+
+    --color-main: #0e1111;
+    --color_inverted: rgb(255, 240, 230);
+    --color-white-full: whitesmoke;
+    --color-secondary: #353839;
+    --color-l-int: #414a4c;
+    --color-alpha: rgba(14, 17, 17, 1);
+
+    /*
+    --color-main: #4f176c;
+    --color_inverted: rgb(255, 240, 230);
+    --color-secondary: #8d209b;
+    --color-l-int: #e06ee0;
+    --color-alpha: rgba (79, 23, 108, 1);
+    */
+
+    /*FUENTES*/
+
+    --font-base: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    --font-custom-google: "Noto Sans JP", sans-serif;
+    --font-w: 100;
+}
+
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 200vh;
+    width: 100vw;
+    background-color: var(--color-main);
+    font-family: var(--font-custom-google);
+}
+
+header,
+main {
+    height: 100vh;
+}
+
+.bloc {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+}
+.bloc_bis {
+    background-size: cover;
+    background-position: center;
+    transition: 0.75s ease-in-out;
+    flex: 1;
+}
+
+.__uno {
+    background-image: url("https://soranews24.com/wp-content/uploads/sites/3/2022/01/Spirited-Away-fan-theory-Studio-Ghibli-anime-movie-Japan-film-news-Hayao-Miyazaki-Chihiro-Haku-4.jpg");
+}
+
+.__dos {
+    background-image: url("https://cdn.theatlantic.com/thumbor/a6r_eTA_6ZQoZToRceey0q7qEm4=/0x0:1920x1080/960x540/media/img/mt/2015/05/man/original.jpg");
+}
+
+.__tres {
+    background-image: url("https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2022/04/jurassic-world-dominion-2663171.jpg");
+}
+
+.bloc_bis:hover {
+    flex: 4;
+}
+
+main > div {
+    height: calc(1 / 3 * 100%);
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+    color: var(--color_inverted);
+}
+
+p {
+    color: var(--color-l-int);
+    font-weight: var(--font-w);
+}
+
+p:hover {
+    color: var(--color-white-full);
+}
+
+.totoro {
+    font-size: 20px;
+}
+
+.totoro > p {
+    font-size: var(--font-size-grl);
+}
+
+.white {
+    color: var(--color-white-full);
+}

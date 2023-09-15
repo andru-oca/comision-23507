@@ -1,0 +1,33 @@
+@import url("./jumper.animation.css");
+@import url("./changeColor.animate.css");
+
+footer > div {
+  width: 200px;
+  aspect-ratio: 1;
+  background-color: blue;
+  display: inline-block;
+}
+
+footer > div:hover::before {
+  background-color: green;
+}
+
+footer > div::before {
+  content: "box >>";
+  position: relative;
+  top: 50%;
+  left: 10px;
+  background-color: bisque;
+  border-radius: 25%;
+  transition: all 1s ease-in-out;
+}
+
+footer > div:nth-child(2) {
+  transform: translate(-200px) rotateZ(560deg);
+  transition: transform 200ms ease-in-out 2s;
+}
+
+.animacion,
+footer > div:nth-child(3) {
+  animation: 5s ease-in-out infinite jumper, 5s ease-in-out infinite changeColor;
+}

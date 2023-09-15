@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+}
+
+body > main {
+  background-color: black;
+  height: 100svh;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+
+  grid-template-areas:
+    "a b b"
+    "c c e"
+    "d f e";
+
+  padding: 10rem;
+
+  box-sizing: border-box;
+  gap: 2em;
+}
+
+section {
+  border-radius: 4rem;
+}
+
+section:nth-child(1) {
+  grid-area: a;
+  /* grid-column-start: 1;
+  grid-column-end: 2;
+
+  grid-row-start: 1;
+  grid-row-end: 2; */
+
+  background-image: url("https://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2019/08/07/896/500/694940094001_6069142819001_6069150238001-vs.jpg");
+  background-position: center;
+  background-size: cover;
+}
+section:nth-child(2) {
+  grid-area: b;
+  /* grid-column: 2 / span 2;
+  grid-row: 1/2; */
+  background-image: url("https://es.web.img3.acsta.net/pictures/18/10/31/17/34/2348073.jpg");
+  background-position: center;
+  background-size: cover;
+}
+section:nth-child(3) {
+  grid-area: c;
+  /* grid-column: 1 / span 2; */
+  background-image: url("https://cocina-casera.com/wp-content/uploads/2016/11/hamburguesa-queso-receta.jpg");
+  background-position: center;
+  background-size: cover;
+}
+section:nth-child(4) {
+  grid-area: d;
+  /* grid-column: 3 / span 1;
+  grid-row: 2 / 4; */
+  background-image: url("https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2017/07/rick-morty-.jpg");
+  background-position: center;
+  background-size: cover;
+}
+section:nth-child(5) {
+  grid-area: e;
+  background-image: url("https://es.web.img3.acsta.net/pictures/18/10/31/17/34/2348073.jpg");
+  background-position: center;
+  background-size: cover;
+}
+section:nth-child(6) {
+  grid-area: f;
+  background-image: url("https://www.infobae.com/new-resizer/B0LFbCdFBOKyVJpisBikW8XjA6U=/1200x900/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/TMKTKOS4IBBYPN3ZTH2G73WUEU.png");
+  background-position: center;
+  background-size: cover;
+}
+
+section:nth-child(4) {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+section:nth-child(4) > div {
+  height: 100px;
+  aspect-ratio: 1;
+  background-color: lightblue;
+
+  border: 1px solid black;
+  border-radius: 1rem;
+
+  flex-grow: 1;
+  filter: blur(5px);
+}
+
+/*
+Mobile devices – 320px — 480px
+iPads, Tablets – 481px — 768px
+Small screens, laptops – 769px — 1024px
+Desktops, large screens – 1025px — 1200px
+Extra large screens, TV – 1201px, and more
+
+*/

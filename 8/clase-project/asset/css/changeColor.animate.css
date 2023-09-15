@@ -1,0 +1,8 @@
+@keyframes changeColor {
+  from {
+    background-color: blue;
+  }
+  to {
+    background-color: yellow;
+  }
+}

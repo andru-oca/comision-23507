@@ -1,0 +1,16 @@
+@import url("./main.style.css");
+
+body {
+  height: var(--heigth-grl);
+  border: var(--border-var);
+  box-sizing: border-box;
+}
+
+/*selectores avanzados*/
+header,
+main,
+footer {
+  height: calc(1 / 3 * 100%);
+  border: var(--border-var);
+  box-sizing: border-box;
+}

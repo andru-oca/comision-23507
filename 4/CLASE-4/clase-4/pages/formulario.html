@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+</head>
+
+<body>
+    <header>
+        <h1> CLASE DE FORMULARIOS Y ESTRUCTURAS</h1>
+        <nav>
+            <ul type="none">
+                <li>
+
+                    <a href="/">INICIO</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <fieldset>
+
+            <legend>
+                <marquee behavior="" direction="">
+                    INSCRIBITE A CODO A CODO
+                </marquee>
+            </legend>
+
+            <form action="" method="get" class="form-example">
+
+                <table>
+                    <tbody>
+
+                        <tr>
+                            <th> USUARIO</th>
+                            <td>
+                                <input type="text" id="username" name="username" placeholder="username !!" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <th> PASSWORD</th>
+                            <td>
+                                <input type="password" id="pass" name="password" minlength="8" required
+                                    placeholder="Password (8 characters minimum):" />
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+                <section>
+
+
+                    <div>
+                        <input type="checkbox" id="coding" name="interest" value="coding" checked />
+                        <label for="coding">Coding</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="music" name="interest" value="music" />
+                        <label for="music">Music</label>
+                    </div>
+
+                </section>
+
+                <section>
+
+                    <h3>radio</h3>
+                    <div>
+                        <input type="radio" id="coding" name="interest" value="coding" checked />
+                        <label for="coding">Coding</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="music" name="interest" value="music" />
+                        <label for="music">Music</label>
+                    </div>
+
+                </section>
+
+                <section>
+                    <label for="meeting-time">Choose a time for your appointment:</label>
+
+                    <input type="date" id="meeting-time" name="meeting-time" value="2018-06-12" min="2018-06-07"
+                        max="2018-06-14" />
+
+                </section>
+
+
+                <section>
+
+                    <label for="pet-select">Choose a pet:</label>
+
+                    <select name="pets" id="pet-select">
+                        <option value="dog">Dog</option>
+                        <option value="cat">Cat</option>
+                        <option value="hamster" selected>Hamster</option>
+                        <option value="parrot">Parrot</option>
+                        <option value="spider">Spider</option>
+                        <option value="goldfish">Goldfish</option>
+                    </select>
+
+                </section>
+
+
+                <section>
+                    <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+
+                    <datalist id="ice-cream-flavors">
+                        <option value="Chocolate">
+                        <option value="Coconut">
+                        <option value="Mint">
+                        <option value="Strawberry">
+                        <option value="Vanilla">
+                    </datalist>
+
+                </section>
+
+
+                <input type="submit" value="Subscribe!" />
+
+                <button type="submit">
+                    <marquee behavior="" direction="">
+                        SUSCRIBITE!!!!!!
+
+                    </marquee>
+                </button>
+
+                <button type="reset">
+                    <h3>BORRA TODO CACHO!</h3>
+                </button>
+            </form>
+        </fieldset>
+
+
+    </main>
+    <footer></footer>
+
+
+</body>
+
+</html>

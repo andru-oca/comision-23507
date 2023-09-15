@@ -1,0 +1,23 @@
+@import url("./body.style.css");
+@import url("./header.style.css");
+@import url("./footer.style.css");
+
+:root {
+  --border-var: 0px solid blue;
+  --heigth-grl: 100svh;
+  /*dark
+  --fg: #fff;
+  --bg: #333;
+  */
+
+  /*ligth*/
+
+  --bg: #fff;
+  --fg: #333;
+}
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+}

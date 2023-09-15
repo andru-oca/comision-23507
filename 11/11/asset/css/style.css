@@ -1,0 +1,67 @@
+body {
+  height: 200svh;
+  margin: 0;
+  padding: 0;
+}
+
+main,
+footer {
+  height: calc(1 / 3 * 100%);
+}
+
+main {
+  /* background-color: lightpink; */
+}
+footer {
+  background-color: lightslategrey;
+}
+
+h1 {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+main > div {
+  /* background-color: blueviolet; */
+  color: white;
+}
+
+/* .width-fixed {
+  width: 200px;
+} */
+
+/* [class^="col"] {
+  background-color: lightgreen;
+  border: 1px solid white;
+  color: black;
+} */
+
+header,
+header > img {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  overflow: hidden;
+}
+
+/* header {
+  background-image: url("https://previews.123rf.com/images/patterndesign/patterndesign1706/patterndesign170601028/80050485-resumen-de-fondo-de-imagen-16-9-relaci%C3%B3n-de-aspecto-en-el-estilo-de-arte-de-p%C3%ADxeles.jpg");
+} */
+
+main {
+  display: grid;
+  align-content: center;
+}
+.carousel {
+  height: 500px;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-top-right-radius: 1rem;
+}

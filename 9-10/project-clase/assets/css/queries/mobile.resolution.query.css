@@ -1,0 +1,21 @@
+@media (width < 480px) {
+  body > main {
+    background-color: black;
+    height: 300svh;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+
+    grid-template-areas:
+      "a"
+      "c"
+      "b"
+      "f"
+      "e"
+      "d";
+  }
+  section:nth-child(3) {
+    visibility: hidden;
+  }
+}

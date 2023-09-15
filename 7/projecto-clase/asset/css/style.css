@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&display=swap");
+@import url("./main.style.css");
+@import url("./header.style.css");
+@import url("./section.style.css");
+@import url("./footer.style.css");
+
+:root {
+  --gradiente-items: linear-gradient(
+    to left,
+    #333,
+    #333 10%,
+    #eee 25%,
+    #333 5%
+  );
+
+  --font-custom: "Hind Madurai", sans-serif;
+
+  --color1: #7ebeb2;
+  --color2: #d1f3db;
+  --color3: #da9c3c;
+  --color4: #bc1953;
+  --color5: #7d144c;
+}
+
+*,
+html {
+  margin: 0;
+}
+
+body {
+  height: 100svh;
+  font-family: var(--font-custom);
+}

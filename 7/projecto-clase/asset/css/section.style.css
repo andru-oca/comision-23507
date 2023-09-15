@@ -1,0 +1,68 @@
+section {
+  border: 1px solid red;
+  height: 100%;
+  width: 90%;
+  /* overflow-x: scroll; */
+}
+
+p {
+  /* box-sizing: border-box; */
+  width: 55rem;
+  max-width: fit-content;
+  min-width: 200px;
+  border: 15px solid blue;
+
+  /* font-size: clamp(5px, 1vw + 0.4rem, 1.5rem); */
+}
+
+p:nth-child(2) {
+  color: red;
+  visibility: hidden;
+}
+
+section span {
+  font-size: 2em;
+
+  color: whitesmoke;
+  border: transparent;
+
+  margin: 0rem 2rem 0 1rem;
+  padding: 1rem 2rem 1rem 2rem;
+
+  border-radius: 1rem;
+  background: var(--gradiente-items);
+}
+
+section span:hover {
+  cursor: pointer;
+}
+
+section span:nth-child(1) {
+  position: static;
+}
+
+section span:nth-child(2) {
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+section span:nth-child(3) {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  display: none;
+}
+
+section span:nth-child(3) h1 {
+  position: relative;
+  top: 100px;
+  left: 0px;
+}
+
+section span:nth-child(4) {
+  position: fixed;
+  right: 0;
+  top: 50%;
+
+  display: none;
+}

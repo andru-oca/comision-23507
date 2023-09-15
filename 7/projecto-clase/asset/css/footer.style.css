@@ -1,0 +1,25 @@
+footer {
+  height: 300vh;
+}
+
+footer > div {
+  height: 100%;
+  color: white;
+
+  font-size: 3rem;
+}
+
+footer > div:nth-child(1) {
+  background-color: rebeccapurple;
+}
+footer > div:nth-child(2) {
+  background-color: #222;
+}
+footer > div:nth-child(3) {
+  background-color: blue;
+}
+
+footer > div > p {
+  position: sticky;
+  top: 10px;
+}

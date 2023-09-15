@@ -1,0 +1,6 @@
+main {
+  box-sizing: border-box;
+  height: 100%;
+  border: 10px solid red;
+  background-color: darkgray;
+}

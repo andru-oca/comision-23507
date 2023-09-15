@@ -1,0 +1,35 @@
+header {
+  background-color: gray;
+  isolation: isolate;
+}
+
+header div {
+  height: 200px;
+  aspect-ratio: 1;
+  border: 5px solid black;
+  transition: all 200ms ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://www.macworld.com/wp-content/uploads/2023/08/macos-ventura-logo-1.jpg");
+  filter: grayscale(100%) contrast(200%);
+}
+
+header div:hover {
+  /* background-color: aquamarine; */
+  filter: grayscale(0%) contrast(200%);
+}
+
+header div:nth-child(1) {
+  position: relative;
+}
+header div:nth-child(2) {
+  position: relative;
+  top: -100px;
+  left: 100px;
+}
+header div:nth-child(3) {
+  position: relative;
+  top: -200px;
+  left: 200px;
+  z-index: -1;
+}
