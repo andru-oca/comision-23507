@@ -1,0 +1,142 @@
+[
+    {
+        "price": "$29.99",
+        "name": "Founders CBS",
+        "rating": {
+            "average": 1.3498085290196702,
+            "reviews": 105
+        },
+        "image": "https://www.totalwine.com/media/sys_master/twmmedia/hfb/h90/10682638663710.png",
+        "id": 1
+    },
+    {
+        "price": "$26.99",
+        "name": "Founders KBS (Kentucky Breakfast Stout)",
+        "rating": {
+            "average": 3.319229419087387,
+            "reviews": 135
+        },
+        "image": "https://www.totalwine.com/media/sys_master/twmmedia/haa/h27/8819208028190.png",
+        "id": 2
+    },
+    {
+        "price": "$9.99",
+        "name": "Founders Breakfast Stout",
+        "rating": {
+            "average": 4.020475577461946,
+            "reviews": 199
+        },
+        "image": "https://www.totalwine.com/media/sys_master/twmmedia/ha2/he2/8796687728670.png",
+        "id": 3
+    },
+    {
+        "price": "$249.99",
+        "name": "Prairie BOMB!",
+        "rating": {
+            "average": 3.5883227323582156,
+            "reviews": 288
+        },
+        "image": "https://www.totalwine.com/media/sys_master/twmmedia/h0b/h40/10608572923934.png",
+        "id": 4
+    },
+    {
+        "price": "$15.99",
+        "name": "Oskar Blues Ten FIDY",
+        "rating": {
+            "average": 1.5546641370542487,
+            "reviews": 125
+        },
+        "image": "https://www.totalwine.com/media/sys_master/twmmedia/hc1/h8e/11465945481246.png",
+        "id": 5
+    },
+    {
+        "price": "$12.99",
+        "name": "Founders Imperial Stout",
+        "rating": {
+            "average": 1.669030730684013,
+            "reviews": 350
+        },
+        "image": "https://www.totalwine.com/media/sys_master/twmmedia/h75/hd7/8809528655902.png",
+        "id": 6
+    },
+    {
+        "price": "$8.99",
+        "name": "Stone Farking Wheaton w00tstout",
+        "rating": {
+            "average": 3.4510269705483525,
+            "reviews": 435
+        },
+        "image": "https://www.totalwine.com/media/sys_master/twmmedia/hf5/hde/8810272751646.png",
+        "id": 7
+    },
+    {
+        "price": "$18.49",
+        "name": "Stone Farking Wheaton w00tstout",
+        "rating": {
+            "average": 1.7121016573651904,
+            "reviews": 381
+        },
+        "image": "https://www.totalwine.com/media/sys_master/cmsmedia/hff/h0e/8979036078110.png",
+        "id": 8
+    },
+    {
+        "price": "$17.99",
+        "name": "Stone Xocoveza Mocha Stout",
+        "rating": {
+            "average": 4.220759092205478,
+            "reviews": 305
+        },
+        "image": "https://www.totalwine.com/media/sys_master/twmmedia/hec/h6f/11931643084830.png",
+        "id": 9
+    },
+    {
+        "price": "$10.99",
+        "name": "North Coast Old Rasputin Imperial Stout",
+        "rating": {
+            "average": 1.1958209640916504,
+            "reviews": 195
+        },
+        "image": "https://www.totalwine.com/media/sys_master/twmmedia/h25/h63/11770107363358.png",
+        "id": 10
+    },
+    {
+        "price": "$22.99",
+        "name": "Brooklyn Black OPS",
+        "rating": {
+            "average": 3.572948922672931,
+            "reviews": 132
+        },
+        "image": "https://www.totalwine.com/media/sys_master/twmmedia/hc8/h9f/8806313689118.png",
+        "id": 11
+    },
+    {
+        "price": "$36.99",
+        "name": "Dogfish Head World Wide Stout",
+        "rating": {
+            "average": 2.052089588877407,
+            "reviews": 199
+        },
+        "image": "https://www.totalwine.com/media/sys_master/twmmedia/h8c/h4e/10657395245086.png",
+        "id": 12
+    },
+    {
+        "price": "$4.49",
+        "name": "Samuel Smith's Organic Chocolate Stout",
+        "rating": {
+            "average": 3.9019378119717665,
+            "reviews": 478
+        },
+        "image": "https://www.totalwine.com/media/sys_master/twmmedia/hfc/h98/8807021150238.png",
+        "id": 13
+    },
+    {
+        "price": "$2.99",
+        "name": "Samuel Smith's Organic Chocolate Stout",
+        "rating": {
+            "average": 3.904481388595789,
+            "reviews": 414
+        },
+        "image": "https://www.totalwine.com/media/sys_master/twmmedia/h37/ha6/8803802054686.png",
+        "id": 14
+    }
+]
