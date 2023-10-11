@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+main > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    gap:2rem;
+    flex-direction: column;
+}
+
+
+
+.usuarios{
+    display: grid;
+    width: 100%;
+    gap: 5rem;
+    grid-auto-rows: 6rem;
+    grid-template-columns: repeat(auto-fill, minmax(6rem, 1fr));
+        
+}
+
+.usuarios > div{
+    display: grid;
+    border-radius: 1rem;
+    width: 100%;
+    aspect-ratio: 1;
+    background-color: #666;
+    color: white;
+    padding: 1rem;
+    place-items: center;
+
+}
+
+.veronica{
+    background: #666;
+    color:whitesmoke;
+}

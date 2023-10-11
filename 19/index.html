@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./asset/css/style.css" />
+    <title>Vue</title>
+  </head>
+  <body>
+    <main>
+      <div id="app">
+        <div>
+          <h1>El mensaje de bienvenida es {{ welcomeMsg }}</h1>
+          <input type="text" v-model.lazy="welcomeMsg" />
+          <input type="number" v-model.lazy="longUsers" />
+
+          <button @click="() => userItems = users.slice(0,longUsers)">
+            update slicer
+          </button>
+
+          <h1>TODOS MIS BTNS</h1>
+          <button
+            @click="() => {
+            msg = msg.toUpperCase() ;
+            saludo = saludo.toUpperCase() 
+        }"
+          >
+            UPPERCASE
+          </button>
+          <button @click="() => display = !display">MOSTRAR/NO MOSTRAR</button>
+        </div>
+        <div v-once>
+          <h1>{{msg}}</h1>
+        </div>
+        <div>
+          <h2 v-text="saludo"></h2>
+        </div>
+        <h1 v-show="display" v-bind:class="styleVeronica">
+          El valor del conteo es : {{count}}
+        </h1>
+        <hr />
+        <div>
+          <button @click="count++">UP</button>
+          <button @click="count--">DOWN</button>
+        </div>
+
+        <div class="usuarios" v-show="display">
+          <div v-for="user in userItems">
+            <p>{{user.name}}</p>
+            <p>{{user.email}}</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <!-- <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script> -->
+  <script type="module" src="./asset/js/index.js"></script>
+</html>
