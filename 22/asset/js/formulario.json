@@ -1,0 +1,27 @@
+{
+"nombre":{
+    "label":"Nombre de receta",
+    "type":"text",
+    "placeholder":"ingrese platillo"
+},
+"cocinero":{
+    "label":"Cocinero creador",
+    "type":"text",
+    "placeholder":"quién lo hizo?"
+},
+"imagen":{
+    "label":"Imagen del plato",
+    "type":"url",
+    "placeholder":"https://url/pic.jpg"
+},
+"instructivo":{
+    "label":"Ingrese Instrucciones",
+    "type":"text",
+    "placeholder":"Receta de preparacion: ..."
+},
+"tipo_comida":{
+    "label":"Que tipo de plato es?",
+    "type":"text",
+    "placeholder":"ingrese el tipo de plato"
+}
+}

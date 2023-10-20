@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./asset/css/style.css" />
+    <title>Vue Ultima Parte</title>
+  </head>
+  <body>
+    <center>
+      <header></header>
+      <main id="main">
+        <div>
+          <h1>FORMULARIO DE CARGA DE RECETAS</h1>
+          <h3 v-show="errorPost!=null">{{errorPost}}</h3>
+          <div>
+            <form v-show="form != null">
+              <div v-for="(dato,item) in form">
+                <label>{{dato.label}}</label>
+                <p>valor de lo que estas escribiendo:{{receta[item]}}</p>
+
+                <input
+                  v-model.lazy="receta[item]"
+                  :type="dato.type"
+                  :placeholder="dato.placeholder"
+                />
+              </div>
+              <hr />
+              <button @click="subirRecetaHandler($event)">SUBIR RECETA</button>
+            </form>
+
+            <hr />
+
+            <div>
+              <button @click="getRecetasHandler">Cargar Recetas</button>
+            </div>
+
+            <hr />
+            <receta v-for="receta in recetas" :receta="receta"></receta>
+          </div>
+        </div>
+      </main>
+      <footer></footer>
+    </center>
+  </body>
+  <script type="module" src="./asset/js/index.js"></script>
+</html>
