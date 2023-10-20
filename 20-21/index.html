@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./asset/css/style.css" />
+    <title>VUE 20-21</title>
+  </head>
+  <body>
+    <header></header>
+    <main id="main">
+      <form>
+        <div v-for="(value,key) in formulario">
+          <vueinput
+            :key="usuarioInput[key]"
+            :texto="key"
+            :type="value.type"
+            :placeholder="value.placeholder"
+          >
+          </vueinput>
+        </div>
+        <button @click="uploadUserHandler($event)">Subir Usuario</button>
+      </form>
+
+      <hr />
+      <button @click="usuariosHandler">Cargar Usuarios</button>
+
+      <hr />
+      <h2 v-show="fetchUsuariosError !=null ">{{fetchUsuariosError}}</h2>
+      <user v-for="user in users" :usuario="user"> </user>
+    </main>
+    <footer></footer>
+  </body>
+  <script src="./asset/js/index.js" type="module"></script>
+</html>
