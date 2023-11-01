@@ -1,0 +1,6 @@
+
+    Mi nombre es: sebas, gaun
+    Email: ______seba@mail.com______
+    Mi dni es : __________98798__________
+    Bienvenido al curso 23507
+    Love, Python
