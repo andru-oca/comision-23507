@@ -1,0 +1,304 @@
+{% extends 'base_template.html' %}
+{% load static %}
+{% block contenido %}
+
+    <!--Fin de la barra de navegación-->
+    <div class="banner">
+        <h1>Todo lo que necesitas, lo encostras acá. Y al mejor precio.</h1>
+    </div>
+
+    <main>
+        <!-- OFERTAS-------------------------------------------------------------------------------------------------------------------------------------- -->
+        <div class="ofertas">
+            <h4>OFERTAS</h4>
+            <div class="chevron izq">
+                <i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+                        <g transform="rotate(-90 14 14)">
+                            <path fill="currentColor"
+                                d="M23.707 18.707a1 1 0 0 1-1.414 0L14 10.414l-8.293 8.293a1 1 0 0 1-1.414-1.414l9-9a1 1 0 0 1 1.414 0l9 9a1 1 0 0 1 0 1.414Z" />
+                        </g>
+                    </svg>
+                </i>
+            </div>
+            <div class="chevron der">
+                <i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+                        <g transform="rotate(90 14 14)">
+                            <path fill="currentColor"
+                                d="M23.707 18.707a1 1 0 0 1-1.414 0L14 10.414l-8.293 8.293a1 1 0 0 1-1.414-1.414l9-9a1 1 0 0 1 1.414 0l9 9a1 1 0 0 1 0 1.414Z" />
+                        </g>
+                    </svg>
+                </i>
+            </div>
+            <div class="ofertas-container">
+                <div class="item">
+                    <div class="oferta">25%</div>
+                    <div class="a">
+                        <img src="{% static './media/img/fotos/paleta1.jpg' %}" alt="" class="prod-img" />
+                    </div>
+                    <div class="b">
+                        <h5>CATEGORIA</h5>
+                        <h6>NOMBRE PRODUCTO</h6>
+                        <p class="original price">$ 1799,99</p>
+                        <p class="discount price">$ 1349,99</p>
+                        <p class="cuotas">3 cuotas sin interés</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="oferta">-25%</div>
+                    <div class="a">
+                        <img src="../assets/media/img/fotos/paleta2.jpg" alt="" class="prod-img" />
+                    </div>
+                    <div class="b">
+                        <h5>CATEGORIA</h5>
+                        <h6>NOMBRE PRODUCTO</h6>
+                        <p class="original price">$ 1799,99</p>
+                        <p class="discount price">$ 1349,99</p>
+                        <p class="cuotas">3 cuotas sin interés</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="oferta">-25%</div>
+                    <div class="a">
+                        <img src="../assets/media/img/fotos/ropa.jpg" alt="" class="prod-img" />
+                    </div>
+                    <div class="b">
+                        <h5>CATEGORIA</h5>
+                        <h6>NOMBRE PRODUCTO</h6>
+                        <p class="original price">$ 1799,99</p>
+                        <p class="discount price">$ 1349,99</p>
+                        <p class="cuotas">3 cuotas sin interés</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="oferta">-25%</div>
+                    <div class="a">
+                        <img src="../assets/media/img/fotos/zapatilla.jpg" alt="" class="prod-img" />
+                    </div>
+                    <div class="b">
+                        <h5>CATEGORIA</h5>
+                        <h6>NOMBRE PRODUCTO</h6>
+                        <p class="original price">$ 1799,99</p>
+                        <p class="discount price">$ 1349,99</p>
+                        <p class="cuotas">3 cuotas sin interés</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="oferta">25%</div>
+                    <div class="a">
+                        <img src="../assets/media/img/fotos/paleta1.jpg" alt="" class="prod-img" />
+                    </div>
+                    <div class="b">
+                        <h5>CATEGORIA</h5>
+                        <h6>NOMBRE PRODUCTO</h6>
+                        <p class="original price">$ 1799,99</p>
+                        <p class="discount price">$ 1349,99</p>
+                        <p class="cuotas">3 cuotas sin interés</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PRODUCTOS-------------------------------------------------------------------------------------------------------------------------------- -->
+
+        <div class="categ-container">
+            <div class="categ-item">
+                <img src="../assets/media/img/botones/cambioweb-pn-final-rebajas-verano-400x170-zapatillas.jpg" alt="">
+            </div>
+            <div class="categ-item">
+                <img src="../assets/media/img/botones/cambioweb-pn-final-rebajas-verano-400x170-ropa.jpg" alt="">
+            </div>
+            <div class="categ-item">
+                <img src="../assets/media/img/botones/cambioweb-pn-final-rebajas-verano-400x170-palas.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="filter-container">
+            <label>Ordenar por:</label>
+            <select id="filter-options">
+                <option value="mas-barato">Más barato</option>
+                <option value="mas-caro">Más caro</option>
+                <option value="destacados">Destacados</option>
+            </select>
+        </div>
+
+        <div class="prod-container">
+            <div class="p-item">
+                <div class="a">
+                    <img src="../assets/media/img/fotos/zapatilla.jpg" alt="" class="prod-img" />
+                </div>
+                <div class="b">
+                    <h5>CATEGORIA</h5>
+                    <h6>NOMBRE PRODUCTO</h6>
+                    <p class="price">$ 1799,99</p>
+                    <p class="cuotas">3 cuotas sin interés</p>
+                </div>
+            </div>
+            <div class="p-item">
+                <div class="a">
+                    <img src="../assets/media/img/fotos/zapatilla.jpg" alt="" class="prod-img" />
+                </div>
+                <div class="b">
+                    <h5>CATEGORIA</h5>
+                    <h6>NOMBRE PRODUCTO</h6>
+                    <p class="price">$ 1799,99</p>
+                    <p class="cuotas">3 cuotas sin interés</p>
+                </div>
+            </div>
+            <div class="p-item">
+                <div class="a">
+                    <img src="../assets/media/img/fotos/zapatilla.jpg" alt="" class="prod-img" />
+                </div>
+                <div class="b">
+                    <h5>CATEGORIA</h5>
+                    <h6>NOMBRE PRODUCTO</h6>
+                    <p class="price">$ 1799,99</p>
+                    <p class="cuotas">3 cuotas sin interés</p>
+                </div>
+            </div>
+            <div class="p-item">
+                <div class="a">
+                    <img src="../assets/media/img/fotos/zapatilla.jpg" alt="" class="prod-img" />
+                </div>
+                <div class="b">
+                    <h5>CATEGORIA</h5>
+                    <h6>NOMBRE PRODUCTO</h6>
+                    <p class="price">$ 1799,99</p>
+                    <p class="cuotas">3 cuotas sin interés</p>
+                </div>
+            </div>
+            <div class="p-item">
+                <div class="a">
+                    <img src="../assets/media/img/fotos/zapatilla.jpg" alt="" class="prod-img" />
+                </div>
+                <div class="b">
+                    <h5>CATEGORIA</h5>
+                    <h6>NOMBRE PRODUCTO</h6>
+                    <p class="price">$ 1799,99</p>
+                    <p class="cuotas">3 cuotas sin interés</p>
+                </div>
+            </div>
+            <div class="p-item">
+                <div class="a">
+                    <img src="../assets/media/img/fotos/zapatilla.jpg" alt="" class="prod-img" />
+                </div>
+                <div class="b">
+                    <h5>CATEGORIA</h5>
+                    <h6>NOMBRE PRODUCTO</h6>
+                    <p class="price">$ 1799,99</p>
+                    <p class="cuotas">3 cuotas sin interés</p>
+                </div>
+            </div>
+            <div class="p-item">
+                <div class="a">
+                    <img src="../assets/media/img/fotos/zapatilla.jpg" alt="" class="prod-img" />
+                </div>
+                <div class="b">
+                    <h5>CATEGORIA</h5>
+                    <h6>NOMBRE PRODUCTO</h6>
+                    <p class="price">$ 1799,99</p>
+                    <p class="cuotas">3 cuotas sin interés</p>
+                </div>
+            </div>
+            <div class="p-item">
+                <div class="a">
+                    <img src="../assets/media/img/fotos/zapatilla.jpg" alt="" class="prod-img" />
+                </div>
+                <div class="b">
+                    <h5>CATEGORIA</h5>
+                    <h6>NOMBRE PRODUCTO</h6>
+                    <p class="price">$ 1799,99</p>
+                    <p class="cuotas">3 cuotas sin interés</p>
+                </div>
+            </div>
+            <div class="p-item">
+                <div class="a">
+                    <img src="../assets/media/img/fotos/zapatilla.jpg" alt="" class="prod-img" />
+                </div>
+                <div class="b">
+                    <h5>CATEGORIA</h5>
+                    <h6>NOMBRE PRODUCTO</h6>
+                    <p class="price">$ 1799,99</p>
+                    <p class="cuotas">3 cuotas sin interés</p>
+                </div>
+            </div>
+            <div class="p-item">
+                <div class="a">
+                    <img src="../assets/media/img/fotos/zapatilla.jpg" alt="" class="prod-img" />
+                </div>
+                <div class="b">
+                    <h5>CATEGORIA</h5>
+                    <h6>NOMBRE PRODUCTO</h6>
+                    <p class="price">$ 1799,99</p>
+                    <p class="cuotas">3 cuotas sin interés</p>
+                </div>
+            </div>
+            <div class="p-item">
+                <div class="a">
+                    <img src="../assets/media/img/fotos/zapatilla.jpg" alt="" class="prod-img" />
+                </div>
+                <div class="b">
+                    <h5>CATEGORIA</h5>
+                    <h6>NOMBRE PRODUCTO</h6>
+                    <p class="price">$ 1799,99</p>
+                    <p class="cuotas">3 cuotas sin interés</p>
+                </div>
+            </div>
+            <div class="p-item">
+                <div class="a">
+                    <img src="../assets/media/img/fotos/zapatilla.jpg" alt="" class="prod-img" />
+                </div>
+                <div class="b">
+                    <h5>CATEGORIA</h5>
+                    <h6>NOMBRE PRODUCTO</h6>
+                    <p class="price">$ 1799,99</p>
+                    <p class="cuotas">3 cuotas sin interés</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER-------------------------------------------------------------------------------------------------------------------------------- -->
+    <footer class="footer">
+        <div class="sponsors-container">
+            <img class="sponsor" src="../assets/media/img/logoSponsors/adidas-logo.jpeg" alt="adidas" />
+            <img class="sponsor" src="../assets/media/img/logoSponsors/logo-wilson-jun-21.jpg" alt="nike" />
+            <img class="sponsor" src="../assets/media/img/logoSponsors/Nike-logo.jpg" alt="puma" />
+            <img class="sponsor" src="../assets/media/img/logoSponsors/logo-asics-jun-21.jpg" alt="asics" />
+        </div>
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="../assets/media/img/logo/logoblanco.png" alt="logo del club" />
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Somos un club de pádel con pasión por este deporte. Ofrecemos clases, torneos, alquiler de canchas y
+                    mucho más.</p>
+                <p>Estamos en Roldan 1930, Nueva Atlantis, La Costa, Buenos Aires. Código postal 7113. Teléfono
+                    +5492257617878. Contáctanos para más información o reserva tu turno online.</p>
+            </div>
+            <div class="box">
+                <h2>SEGUINOS</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2021 <b>Break Point</b> - Todos los Derechos
+                Reservados.</small>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+{% endblock %}

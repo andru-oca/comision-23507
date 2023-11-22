@@ -1,0 +1,17 @@
+
+.sponsors {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 8px;
+    background-color: #0a141d;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.sponsors img {
+    width: 100%;
+    padding: 7px;
+    
+}

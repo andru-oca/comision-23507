@@ -1,0 +1,236 @@
+
+.banner {
+    position: relative;
+    height: 17rem;
+    display: flex;
+    align-items: center;
+}
+
+.banner h1 {
+    font-size: clamp(2rem, 5vw, 6rem);
+    margin: 6rem 0 0 2rem;
+}
+
+/* CARRUSEL------------------------------------------------------------------------------------------------------------------------------------- */
+h4 {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 54px;
+}
+
+h5 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+    margin-bottom: 0.5rem;
+}
+
+h6 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    margin-bottom: 0.5rem;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-bottom: 0.5em;
+}
+
+.original {
+    text-decoration: line-through;
+    color: #777;
+}
+
+.cuotas {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    color: #1d84b5;
+    margin: 0.5rem 0;
+}
+
+.ofertas {
+    width: 80%;
+    margin: 1rem auto;
+    position: relative;
+}
+
+.ofertas>h4 {
+    font-size: 40px;
+    padding-bottom: 0.5rem;
+}
+
+.ofertas-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.item {
+    display: grid;
+    grid-template: "a" "b";
+    background-color: #ffffff;
+    /* width: calc(20%); */
+    height: 25rem;
+    position: relative;
+    transition: all 0.5s ease;
+    padding: 1rem;
+    min-width: 50px;
+}
+
+.item:hover {
+    border-radius: 1rem 0 1rem 1rem;
+    box-shadow: 0 0 20px #30343f7e;
+}
+
+.a {
+    position: relative;
+    grid-area: a;
+}
+
+.b {
+    position: relative;
+    grid-area: b;
+    align-self: end;
+}
+
+.oferta {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ff0000;
+    color: #fff;
+    padding: 0.3rem 0.6rem;
+    border-radius: 0 0 0 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+    z-index: 10;
+}
+
+.prod-img {
+    display: block;
+    margin: 1rem;
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
+    margin: auto;
+}
+
+.chevron {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+
+.chevron.izq {
+    left: -40px;
+}
+
+.chevron.der {
+    right: -40px;
+}
+
+/* CATEGORIAS------------------------------------------------------------------------------------------------------------------------------------- */
+.categ-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.categ-item img {
+    min-width: 100px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+    
+/* PRODUCTOS------------------------------------------------------------------------------------------------------------------------------------ */
+.filter-container {
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    padding: 0.5rem 6rem;
+}
+
+.filter-container label {
+    margin-right: 10px;
+}
+
+.filter-container select {
+    color: #000000;
+    font-size: 16px;
+    padding: 5px 20px 5px 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.prod-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    max-width: 100%;
+    margin: 1rem auto 2rem auto;
+}
+
+.p-item {
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    background-color: #ffffff;
+    min-height: 18rem;
+    position: relative;
+    transition: all 0.5s ease;
+    padding: 1rem;
+}
+
+/* @media (max-width: 1200px) {
+    .p-item {
+        grid-template-columns: repeat(auto-fill, minmax(23rem, 1fr));
+    }
+    
+}
+
+@media (max-width: 900px) {
+    .p-item {
+        grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    }
+}
+
+@media (max-width: 700px) {
+    .p-item {
+        grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    }
+} */
+
+.p-item:hover {
+    border-radius: 1rem 0 1rem 1rem;
+    box-shadow: 0 0 20px #30343f7e;
+}
+
+/* SPONSORS------------------------------------------------------------------------------------------------------------------------------------- */
+.sponsors-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+
+.sponsor {
+    width: 10vw;
+    margin: 0 1rem;
+}

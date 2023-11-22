@@ -1,0 +1,43 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Break Point</title>
+    <!--icono del titulo-->
+    <link rel="icon" href="./assets/media/icons/0.png">
+    <!--animacion-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!--Iconos-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--estilos css-->
+    <link rel="stylesheet" href="{% static './css/style.css' %}">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!--Comienzo de la barra de navegación-->
+    <header class="header">
+        <div class="logo">
+            <img src="{% static './media/img/logo/logoblanco.png' %}" alt="logo del club">
+        </div>
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x' id="close-icon"></i>
+        </label>
+        <nav class="navbar">
+            <a href="/" style="--i:0;">Inicio</a>
+            <a href="{% url 'tienda' %}" style="--i:1;">Tienda</a>
+            <a href="./pages/reserva.html" style="--i:2;">Reserva</a>
+            <a href="./pages/contacto.html" style="--i:3;">Contacto</a>
+        </nav>
+    </header>
+    <!--Fin de la barra de navegación-->
+
+    {% block contenido%}
+    {% endblock %}

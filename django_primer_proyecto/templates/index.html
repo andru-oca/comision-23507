@@ -1,0 +1,215 @@
+{% extends 'base_template.html' %}
+{% load static %}
+{% block contenido %}
+
+    <main>
+        <!--Comienzo de la pantalla principal-->
+        <div class="presentacion">
+            <div class="logo-presentacion">
+                <img src="{% static './media/img/logo/logo2.png' %}" alt="logo del club"
+                    class="animate__animated animate__bounce animate__repeat-3">
+            </div>
+        </div>
+        <!--Fin de la pantalla principal-->
+
+        <!--Comienzo del carrusel-->
+        <div class="slider-box">
+            <ul>
+                <li>
+                    <img class="img" src="{% static './media/img/fotos/gall-01-bac47fb9' %}.png" alt="Image 1">
+                    <div class="texto">
+                        <h2>Escuela de Padel</h2>
+                        <p>
+                            Aprendé a jugar padel ó mejora tus tecnicas con los mejores profesores. Para todas las edades consulta los cupos y horarios disponibles <a class="linkContacto" href="./pages/contacto.html">Aquí</a>
+                        </p>
+                    </div>
+
+                </li>
+                <li>
+                    <img class="img" src="{% static './media/img/fotos/gall-03-61764f4c' %}.png" alt="Image 2">
+                    <div class="texto">
+                        <h2>Torneos</h2>
+                        <p>
+                            Vení a competir en los torneos de Break Point. Por los mejores Premios de la Costa en todas las Categorias 
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <img class="img" src="{% static './media/img/fotos/rediseño2.png' %}" alt="Image 3">
+                    <div class="texto">
+                        <h2>Alquiler de Canchas</h2>
+                        <p>
+                            Reserva tu turno, para jugar en nuestras canchas, y disfrutar de nuestras instalaciones, para reservar hace click <a class="linkContacto" href="./pages/reserva.html">Aqui</a>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <img class="img" src="{% static './media/img/fotos/rediseño1.png' %}" alt="Image 4">
+                    <div class="texto">
+                        <h2>Eventos Especiales</h2>
+                        <p>
+                            Si queres realizar un evento social, contactanos que podemos ayudarte. Conta con nuestra asesoria y excelente servicio. 
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!--Fin del carrusel-->
+
+        <!-- Comienzo de album de fotos -->
+        <h1>Galeria de Fotos</h1>
+
+        <ul class="galeria">
+            <li><a href="#img1"><img src="{% static './media/img/fotos/1.jpg' %}" alt=""></a></li>
+            <li><a href="#img2"><img src="{% static './media/img/fotos/2.jpg' %}" alt=""></a></li>
+            <li><a href="#img3"><img src="{% static './media/img/fotos/3.jpeg' %}" alt=""></a></li>
+            <li><a href="#img4"><img src="{% static './media/img/fotos/4.jpg' %}" alt=""></a></li>
+            <li><a href="#img5"><img src="{% static './media/img/fotos/5.jpg' %}" alt=""></a></li>
+            <li><a href="#img6"><img src="{% static './media/img/fotos/6.jpg' %}" alt=""></a></li>
+            <li><a href="#img7"><img src="{% static './media/img/fotos/7.jpeg' %}" alt=""></a></li>
+            <li><a href="#img8"><img src="{% static './media/img/fotos/10.jpeg' %}" alt=""></a></li>
+            <li><a href="#img9"><img src="{% static './media/img/fotos/11.jpeg' %}" alt=""></a></li>
+        </ul>
+
+        <div class="modal" id="img1">
+            <h3>Foto 1</h3>
+            <div class="Foto">
+                <a href="#img6">&#60;</a>
+                <a href="#img2"><img src="{% static './media/img/fotos/1.jpg' %}" alt=""></a>
+                <a href="#img2">></a>
+            </div>
+            <a class="cerrar" href="">X</a>
+        </div>
+
+        <div class="modal" id="img2">
+            <h3>Foto 2</h3>
+            <div class="Foto">
+                <a href="#img1">&#60;</a>
+                <a href="#img3"><img src="{% static './media/img/fotos/2.jpg' %}" alt=""></a>
+                <a href="#img3">></a>
+            </div>
+            <a class="cerrar" href="">X</a>
+        </div>
+
+        <div class="modal" id="img3">
+            <h3>Foto 3</h3>
+            <div class="Foto">
+                <a href="#img2">&#60;</a>
+                <a href="#img4"><img src="{% static './media/img/fotos/3.jpeg' %}" alt=""></a>
+                <a href="#img4">></a>
+            </div>
+            <a class="cerrar" href="">X</a>
+        </div>
+
+        <div class="modal" id="img4">
+            <h3>Foto 4</h3>
+            <div class="Foto">
+                <a href="#img3">&#60;</a>
+                <a href="#img5"><img src="{% static './media/img/fotos/4.jpg' %}" alt=""></a>
+                <a href="#img5">></a>
+            </div>
+            <a class="cerrar" href="">X</a>
+        </div>
+
+        <div class="modal" id="img5">
+            <h3>Foto 5</h3>
+            <div class="Foto">
+                <a href="#img4">&#60;</a>
+                <a href="#img6"><img src="{% static './media/img/fotos/5.jpg' %}" alt=""></a>
+                <a href="#img6">></a>
+            </div>
+            <a class="cerrar" href="">X</a>
+        </div>
+
+        <div class="modal" id="img6">
+            <h3>Foto 6</h3>
+            <div class="Foto">
+                <a href="#img5">&#60;</a>
+                <a href="#img7"><img src="{% static './media/img/fotos/6.jpg' %}" alt=""></a>
+                <a href="#img7">></a>
+            </div>
+            <a class="cerrar" href="">X</a>
+        </div>
+
+        <div class="modal" id="img7">
+            <h3>Foto 7</h3>
+            <div class="Foto">
+                <a href="#img6">&#60;</a>
+                <a href="#img8"><img src="{% static './media/img/fotos/7.jpeg' %}" alt=""></a>
+                <a href="#img8">></a>
+            </div>
+            <a class="cerrar" href="">X</a>
+        </div>
+
+        <div class="modal" id="img8">
+            <h3>Foto 8</h3>
+            <div class="Foto">
+                <a href="#img7">&#60;</a>
+                <a href="#img9"><img src="{% static './media/img/fotos/10.jpeg' %}" alt=""></a>
+                <a href="#img9">></a>
+            </div>
+            <a class="cerrar" href="">X</a>
+        </div>
+
+        <div class="modal" id="img9">
+            <h3>Foto 9</h3>
+            <div class="Foto">
+                <a href="#img8">&#60;</a>
+                <a href="#img1"><img src="{% static './media/img/fotos/11.jpeg' %}" alt=""></a>
+                <a href="#img1">></a>
+            </div>
+            <a class="cerrar" href="">X</a>
+        </div>
+        <!-- Fin album de fotos -->
+
+        <!-- Comienzo de sponsors -->
+        <div class="sponsors">
+
+            <img src="{% static './media/img/logoSponsors/logo-adidas.jpeg' %}" alt="">
+            <img src="{% static './media/img/logoSponsors/1672220578_nox.svg' %}" alt="">
+            <img src="{% static './media/img/logoSponsors/1676636222_bullpadel-logo-web.svg' %}" alt="">
+            <img src="{% static './media/img/logoSponsors/1672220268_head.svg' %}" alt="">
+            <img src="{% static './media/img/logoSponsors/1672220691_joma.svg' %}" alt="">
+            <img src="{% static './media/img/logoSponsors/logo-asics-jun-21.jpg' %}" alt="">
+
+        </div>
+    </main>
+        <!--Fin de sponsors-->
+
+    <!--Comienzo de Footer-->
+    <footer class="footer">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="{% static './media/img/logo/logoblanco.png' %}" alt="logo del club">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Somos un club de pádel con pasión por este deporte. Ofrecemos clases, torneos, alquiler de canchas y
+                    mucho más.</p>
+                <p>Estamos en Roldan 1930, Nueva Atlantis, La Costa, Buenos Aires. Código postal 7113. Teléfono
+                    +5492257617878. Contáctanos para más información o reserva tu turno online.</p>
+            </div>
+            <div class="box">
+                <h2>SEGUINOS</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2021 <code translate="no"><b>Break Point</b></code> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+    <!--Fin Footer-->
+</body>
+
+</html>
+
+{% endblock %}

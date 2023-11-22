@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&family=Poppins:wght@400;500;600;700;800&family=Roboto:ital,wght@1,700&family=Source+Sans+3&display=swap');
+@import url("../css/header.style.css");
+@import url("../css/footer.style.css");
+@import url("../css/main.style.css");
+@import url("../css/carrusel.css");
+@import url("../css/sponsors.css");
+
+:root {
+color: #E68231; 
+color: #7F9172;
+color: #D5DFE5;
+color: #18206F;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(../media/img/background/full_p1_logoblanco_1796x1042.png);
+    background-color: #D5DFE5;
+    /* height: 100%     !important ;/*controlar los tamaños*/
+    /* width: 100%;controlar los tamaños */
+}
