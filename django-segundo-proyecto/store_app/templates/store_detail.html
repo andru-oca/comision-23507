@@ -1,0 +1,19 @@
+{% extends 'base.html' %} 
+{% block content %}
+
+<main>
+  <div>
+    <h1>{{store.nombre}}</h1>
+    {% for label, value in store.get_fields %}
+    <div>
+      <span>{{label | upper}}</span>
+      <span> <b> {{value}} </b></span>
+    </div>
+
+    {% endfor %}
+
+    <a href="{% url 'store:all' %}">Ir al inicio</a>
+  </div>
+</main>
+
+{% endblock%}

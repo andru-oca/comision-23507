@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<main>
+  <div>
+    <h2>Estas seguro que deseas borrar esta store?</h2>
+    <h2>{{store.nombre}}</h2>
+    <form method="post">
+      {% csrf_token %}
+      {{form.as_p}}
+      <input type="submit" value="{{ tipo }}" />
+    </form>
+
+    <a href="{% url 'store:all' %}">Cancelar</a>
+  </div>
+</main>
+
+{% endblock %}
